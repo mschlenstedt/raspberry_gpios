@@ -1,4 +1,4 @@
-#Raspberry GPIOs
+# Raspberry GPIOs
 
 Kleines Python-Skript, um die GPIOs desRaspberry als Inputs auszulesen und bei Betätigung beliebige Kommandos auszuführen. So ist es auch möglich, den Status der Eingänge per UDP an den Miniserver zu senden.
 
