@@ -15,12 +15,12 @@ GPIO.setmode(GPIO.BCM)
 # Angeschlossene GPIOs
 in_a = 17
 in_b = 27
-in_c = 25
-in_d = 25
+in_c = 23
+in_d = 24
 in_e = 25
  
 # Bash-Kommandos, die bei Aktivierung eines GPIOs ausgeführt werden
-# Doppelte Anführungsstriche müssen mit \ excaped werden!
+# Doppelte Anführungsstriche müssen mit \ escaped werden!
 cmd_a = "echo -n 'input1' > /dev/udp/192.168.3.210/7010 && echo 'UDP Paket gesendet'"
 cmd_b = "echo -n 'input2' > /dev/udp/192.168.3.210/7010 && /usr/bin/amixer cset numid=1 -- -400 && /usr/bin/aplay ./klingelsound.wav && echo 'UDP Paket gesendet'"
 cmd_c = ""
